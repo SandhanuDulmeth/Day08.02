@@ -53,7 +53,7 @@ async function loadItems2() {
        
   //let searchtxt=document.getElementById("search").value;
   
-          let res = await fetch(`https://restcountries.com/v3.1/all`);
+          let res = await fetch("https://restcountries.com/v3.1/all");
           let items = await res.json();
           let body = "";
           items.forEach(element => {
