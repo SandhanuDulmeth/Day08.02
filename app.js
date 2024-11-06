@@ -1,6 +1,6 @@
 
 
-/lkky
+//lkky
 
 loadItems();
     
